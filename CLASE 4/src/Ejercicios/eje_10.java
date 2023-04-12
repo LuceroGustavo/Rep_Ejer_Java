@@ -18,19 +18,19 @@ public class eje_10 {
      Scanner leer = new Scanner(System.in);
      
      int num;
-           System.out.print(" Ingrese 4 numeros enteros");
+           System.out.print(" Ingrese 4 numeros enteros entre 1 y 20");
            
            for(int i=0; i < 4; i++){   
                num = leer.nextInt();
                
-               System.out.println(num+" ");
+               System.out.print(num+" ");
                
             for(int j=0; j < num; j++){
                 System.out.print("*");
                 
             }
-     
+     System.out.println(" ");
     }
-    
+     System.out.println("***fin del programa***");
 }
 }
